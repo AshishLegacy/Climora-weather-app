@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Phone UI */
+.phone {
+  width: 320px;
+  height: 600px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #1e293b, #0f172a);
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+  padding: 20px;
+  position: relative;
+}
+
+/* Top */
+.top {
+  text-align: center;
+}
+
+.top p {
+  opacity: 0.7;
+}
+
+/* Main weather */
+.main-weather {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-weather h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.main-weather img {
+  width: 100px;
+}
+
+/* Forecast */
+.forecast {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
+
+.forecast-item {
+  min-width: 70px;
+  text-align: center;
+  margin: 5px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* Search */
+.search {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search button {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="phone">
+
+  <div class="top">
+    <h2 id="city">City</h2>
+    <p id="date"></p>
+  </div>
+
+  <div class="main-weather">
+    <h1 id="temp">--°</h1>
+    <img id="icon" src="" alt="">
+    <p id="condition"></p>
+  </div>
+
+  <div class="forecast" id="forecast">
+    <!-- forecast items -->
+  </div>
+
+  <div class="search">
+    <input type="text" id="input" placeholder="Search city...">
+    <button onclick="getWeather()">🔍</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
